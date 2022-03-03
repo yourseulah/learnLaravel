@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 구글 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+/* 눈누 폰트 */
+@font-face {
+  font-family: 'SUIT-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* cdnjs */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js');
